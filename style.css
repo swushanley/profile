@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(220, 220, 220);
+  font-family: Open Sans;
+  color: rgb(85, 102, 95);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-size: 20;
+  line-height: 35px;
+  font-family: Montserrat;
+  color: rgb(85, 102, 95);
+  font-weight: lighter;
+}
+h1 {
+  color: rgb(226, 51, 68);
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgba(226, 51, 68, 0.8);
+}
+a:hover {
+  color: rgb(226, 51, 68);
+}
+.image-size {
+  width: 300px;
+  box-shadow: 1px 1px 2px 2px rgb(201, 216, 216);
+}
+.card {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(243, 246, 246);
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+#prof-pic {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 3px rgb(201, 216, 216);
+}
+.text-center {
+  text-align: center;
+}
+.button-red{
+  width: 100px;
+  background-color: rgb(226, 51, 68);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.button-red:hover {
+  color: white;
+  background-color: rgba(226, 51, 68, 0.5);
+}
+.inline-list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+li {
+  margin: 40px;
+  display: inline-flex;
+  color: white;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
